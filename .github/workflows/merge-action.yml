@@ -4,6 +4,8 @@ on:
   pull_request:
     types:
       - closed
+    branches:
+      - dev
 
 env:
   BRANCH: ${{ github.ref_name }}
